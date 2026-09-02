@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color: #0a1c2c;
+    background: #ffffff;
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 88px;
+  }
+
+  body {
+    min-width: 320px;
+    margin: 0;
+    overflow-x: hidden;
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+  }
+
+  ::selection {
+    color: #071b2d;
+    background: #c7e600;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+      scroll-behavior: auto !important;
+      transition-duration: 0.01ms !important;
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+    }
+  }
+}
+
+@layer components {
+  .site-container {
+    @apply mx-auto w-full max-w-[1280px] px-5 sm:px-8 lg:px-10 xl:px-12;
+  }
+
+  .eyebrow {
+    @apply text-[11px] font-extrabold uppercase tracking-[0.16em] text-[#91a900];
+  }
+
+  .section-title {
+    @apply text-[2rem] font-extrabold leading-[1.12] tracking-[-0.035em] sm:text-[2.65rem] lg:text-[3.1rem];
+  }
+
+  .button-primary {
+    @apply inline-flex min-h-12 items-center justify-center gap-2 bg-lime px-6 py-3 text-center text-[11px] font-extrabold uppercase tracking-[0.1em] text-ink transition-colors hover:bg-lime-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-ink;
+  }
+
+  .button-secondary {
+    @apply inline-flex min-h-12 items-center justify-center gap-2 border border-ink bg-white px-6 py-3 text-center text-[11px] font-extrabold uppercase tracking-[0.1em] text-ink transition-colors hover:bg-ink hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-lime;
+  }
+
+  .button-outline-light {
+    @apply inline-flex min-h-12 items-center justify-center gap-2 border border-white/40 px-6 py-3 text-center text-[11px] font-extrabold uppercase tracking-[0.1em] text-white transition-colors hover:border-lime hover:text-lime focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-lime;
+  }
+
+  .button-phone {
+    @apply inline-flex min-h-14 items-center justify-center gap-3 border border-white/30 bg-navy/70 px-5 py-2 text-center text-sm font-extrabold text-white transition-colors hover:border-lime focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-lime;
+  }
+
+  .footer-link {
+    @apply inline-flex min-h-7 items-center text-sm text-white/60 transition-colors hover:text-lime focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-lime;
+  }
+
+  .footer-contact {
+    @apply flex min-h-7 items-center gap-3 transition-colors hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-lime;
+  }
+
+  .process-list::before {
+    content: '';
+    position: absolute;
+    inset: 2.5rem auto 2.5rem 27px;
+    border-left: 1px dashed #b6cf18;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero-image-wrap {
+    clip-path: polygon(8% 0, 100% 0, 100% 100%, 0 100%);
+  }
+
+  .process-list::before {
+    inset: 31px 9% auto;
+    border-top: 1px dashed #b6cf18;
+    border-left: 0;
+  }
+}

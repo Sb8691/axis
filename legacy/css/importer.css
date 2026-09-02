@@ -1,0 +1,891 @@
+nav > ul ul {
+  background: white; }
+
+footer #footer_columns {
+  background: #0f265d; }
+  footer #footer_columns p, footer #footer_columns i, footer #footer_columns a {
+    color: white !important; }
+  footer #footer_columns h3:after {
+    background: white !important; }
+footer #footer_copyright {
+  background: white; }
+  footer #footer_copyright a:hover {
+    color: #274796; }
+
+.intro_text_after header p:after, .portfolio_item_meta_category:after, .title_with_after:after, .title_text_after header h3:after, #related_portfolio h3:before {
+  background: #274796 !important; }
+
+::selection, .single_portfolio_heading:before {
+  background: #274796; }
+
+nav li:hover > a, nav li.current-menu-item > a, nav li.current_page_item > a {
+  color: #274796 !important; }
+
+#kontakt-wrapper .tcvpb_service_box .icon_color {
+  color: #274796 !important; }
+
+.portfolio_item:hover .overlayed .overlay {
+  background: #274796;
+  opacity: 0.85; }
+
+.button-1, .wpcf7 .transparent_form input[type="submit"] {
+  background: transparent !important;
+  border: 1px solid #bdc3c7 !important;
+  color: #fff !important;
+  font-size: 15px;
+  font-weight: 700; }
+  .button-1:hover, .wpcf7 .transparent_form input[type="submit"]:hover {
+    background: #fff !important;
+    border: 1px solid transparent !important;
+    color: #0f265d !important; }
+
+.button-2 {
+  color: #274796 !important;
+  background: transparent;
+  border: 1px solid #dee0e3; }
+  .button-2:hover {
+    background-color: #274796 !important;
+    border: 1px solid #e1e3e6;
+    color: #fff !important; }
+
+.tcvpb_metro_box .flipper .back {
+  background: #274796; }
+
+.icons_f1 .icon_color {
+  color: #274796 !important; }
+
+.blue_box_background {
+  background-color: #274796; }
+
+.ui-accordion-header:hover, .tcvpb-accordion .ui-accordion-header-active {
+  background: #274796 !important;
+  -webkit-box-shadow: inset 0 2px 0 0 #274796;
+  -moz-box-shadow: inset 0 2px 0 0 #274796;
+  box-shadow: inset 0 2px 0 0 #274796; }
+
+.portfolio_icon:hover i {
+  color: #274796 !important; }
+
+#kontakt-wrapper a:hover {
+  color: #5069aa; }
+
+#footer-form.pattern_overlayed:before {
+  background: rgba(255, 255, 255, 0.73) !important; }
+#footer-form h3, #footer-form input, #footer-form textarea {
+  color: black !important; }
+#footer-form input, #footer-form textarea {
+  border-color: black; }
+#footer-form ::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: black; }
+#footer-form ::-moz-placeholder {
+  /* Firefox 19+ */
+  color: black; }
+#footer-form :-ms-input-placeholder {
+  /* IE 10+ */
+  color: black; }
+#footer-form :-moz-placeholder {
+  /* Firefox 18- */
+  color: black; }
+#footer-form input[type=submit] {
+  border: 1px solid black !important; }
+
+input:focus, textarea:focus {
+  outline-width: 1px !important;
+  outline-offset: 0 !important;
+  outline-color: #5069aa !important;
+  outline-style: solid !important; }
+
+[domov] #rev_slider_1_1 {
+  /*.slotholder:before {
+    position: absolute;
+    content: '';
+    left: 0; top: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(255,255,255,0.73);
+  }*/ }
+  [domov] #rev_slider_1_1 div {
+    color: white !important; }
+  [domov] #rev_slider_1_1 .tp-caption {
+    color: white; }
+    [domov] #rev_slider_1_1 .tp-caption:before, [domov] #rev_slider_1_1 .tp-caption:after {
+      background: white !important; }
+  [domov] #rev_slider_1_1 a {
+    color: white !important;
+    border-color: white !important; }
+    [domov] #rev_slider_1_1 a:hover {
+      color: white !important; }
+  [domov] #rev_slider_1_1 .tp-caption.small_light_white:before, [domov] #rev_slider_1_1 .tp-caption.small_light_white:after {
+    background: black; }
+[domov] .inspirado_transparent_button:hover {
+  background-color: #274796 !important; }
+[domov] #domov-nase-sluzby .tcvpb_team_member .tcvpb_team_member_link {
+  padding: 20px 45px 20px 45px;
+  background-color: #5069aa; }
+  [domov] #domov-nase-sluzby .tcvpb_team_member .tcvpb_team_member_link span {
+    color: white;
+    margin-bottom: 0; }
+[domov] #domov-nase-sluzby .tcvpb_team_member .tcvpb_team_member_position {
+  line-height: 1.25;
+  text-align: left; }
+[domov] #domov-nase-sluzby .tcvpb_team_member .img_cont {
+  position: relative; }
+  [domov] #domov-nase-sluzby .tcvpb_team_member .img_cont:after {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.44);
+    transition: 0.19s; }
+[domov] #domov-nase-sluzby .tcvpb_team_member:hover .img_cont:after {
+  opacity: 0; }
+[domov] .tcvpb_team_member:hover .tcvpb_team_member_name {
+  color: #274796; }
+[domov] .tcvpb_team_member:hover .tcvpb_team_member_position {
+  color: #99a1ae; }
+[domov]#single-portfolio-item .portfolio_single_column_item {
+  background-color: #f2f4f5; }
+  [domov]#single-portfolio-item .portfolio_single_column_item > div {
+    background-color: #f2f4f5; }
+  [domov]#single-portfolio-item .portfolio_single_column_item li {
+    list-style-position: inside; }
+[domov]#preco-my:before {
+  background-color: rgba(38, 71, 153, 0.78); }
+[domov]#preco-my .tcvpb_icon_boxed i {
+  border-color: #274796; }
+[domov]#preco-my .icon_color {
+  color: #fff !important; }
+[domov]#preco-my header p:after {
+  background: white !important; }
+[domov] .color_highlight {
+  color: #274796 !important; }
+[domov]#domov-led-pre-vsetky-priestory {
+  background-color: #f2f4f5; }
+[domov]#usetrili_s_nami {
+  background-color: #0f265d; }
+
+[o_nas].cta {
+  background-color: #0f265d; }
+[o_nas] .inspirado.tparrows {
+  border-color: #274796;
+  background-color: #274796; }
+  [o_nas] .inspirado.tparrows:hover {
+    border-color: #274796; }
+[o_nas]#o-nas-nasi-partneri:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(38, 71, 153, 0.78); }
+[o_nas]#o-nas-nasi-partneri .tcvpb_team_member {
+  box-shadow: none; }
+[o_nas]#usetrili_s_nami {
+  background-color: #5069aa !important; }
+  [o_nas]#usetrili_s_nami h3 {
+    color: white !important; }
+[o_nas]#o-nas-prinasame-vam h3 {
+  color: #274796; }
+[o_nas] .icon_color {
+  color: #274796 !important; }
+[o_nas] .tcvpb-tabs .nav-tabs li.active a, [o_nas] .tcvpb-tabs.tcvpb-tabs-timeline ul li:hover a {
+  color: #274796; }
+[o_nas] .tcvpb-tabs.tcvpb-tabs-timeline .nav-tabs li.active:before {
+  border-color: #274796; }
+[o_nas] .tcvpb-tabs.tcvpb-tabs-timeline .tab-pane {
+  background-color: #0f265d; }
+  [o_nas] .tcvpb-tabs.tcvpb-tabs-timeline .tab-pane p {
+    color: white; }
+[o_nas] .tcvpb-tabs.tcvpb-tabs-timeline .nav-tabs li.active:after {
+  background: #0f265d; }
+[o_nas] #historia-nasej-spolocnosti.tcvpb_section_tc.title_text_after header h3:after {
+  background: #274796 !important; }
+[o_nas] .tcvpb_team_member:hover .tcvpb_team_member_name {
+  color: initial; }
+[o_nas] .tcvpb-callout_box_style_3 {
+  background: transparent; }
+[o_nas] .tcvpb_service_box.tcvpb_service_box_icon_aside_left .tcvpb_icon_boxed i {
+  color: #274796 !important; }
+
+.portfolio_filter li a.selected, .portfolio_filter li:hover, .portfolio_filter li:hover a {
+  color: #274796; }
+
+[led_osvetlenie]#related_portfolio {
+  background-color: #5069aa; }
+  [led_osvetlenie]#related_portfolio h3 {
+    color: white; }
+    [led_osvetlenie]#related_portfolio h3:before {
+      background: white !important; }
+  [led_osvetlenie]#related_portfolio .portfolio_inner_content {
+    background: white; }
+    [led_osvetlenie]#related_portfolio .portfolio_inner_content .overlay:hover:before {
+      background: #274796; }
+[led_osvetlenie].tcvpb_section_tc header p {
+  padding: 0 160px 1px; }
+[led_osvetlenie] .color_highlight, [led_osvetlenie] .icon_color {
+  color: #274796 !important; }
+[led_osvetlenie].cta {
+  background-color: #0f265d !important; }
+[led_osvetlenie]#led-osvetlenie-vyrobime-vam-osvetlenie {
+  background: white; }
+  [led_osvetlenie]#led-osvetlenie-vyrobime-vam-osvetlenie:before {
+    content: none; }
+
+[konkretna-referencia]#konkretna-referencia-dalsie-referencie {
+  background-color: #5069aa; }
+  [konkretna-referencia]#konkretna-referencia-dalsie-referencie h3, [konkretna-referencia]#konkretna-referencia-dalsie-referencie p {
+    color: #fff; }
+  [konkretna-referencia]#konkretna-referencia-dalsie-referencie.tcvpb_section_tc.intro_text_after header p:after {
+    background: #fff !important; }
+  [konkretna-referencia]#konkretna-referencia-dalsie-referencie .more_portfolio_link a {
+    color: #fff; }
+    [konkretna-referencia]#konkretna-referencia-dalsie-referencie .more_portfolio_link a:hover {
+      background: white;
+      color: #274796; }
+  [konkretna-referencia]#konkretna-referencia-dalsie-referencie .portfolio_icon:hover i {
+    color: #274796 !important; }
+
+#uspory-v-osvetleni-pripadove-studie {
+  background: #5069aa; }
+  #uspory-v-osvetleni-pripadove-studie p, #uspory-v-osvetleni-pripadove-studie h3 {
+    color: white; }
+    #uspory-v-osvetleni-pripadove-studie p:after, #uspory-v-osvetleni-pripadove-studie h3:after {
+      background: white !important; }
+  #uspory-v-osvetleni-pripadove-studie .overlay {
+    background: white !important; }
+    #uspory-v-osvetleni-pripadove-studie .overlay p {
+      color: black; }
+
+#uspory-v-osvetleni-partneri:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(38, 71, 153, 0.78); }
+
+footer #footer_columns {
+  padding: 58px 0 23px 0; }
+footer .copyright {
+  margin: 0 !important; }
+footer #footer_copyright {
+  margin-bottom: -1px; }
+
+#back_to_top:before {
+  border-color: #333; }
+
+.mt-50 {
+  margin-top: 50px; }
+
+#preloader {
+  position: fixed;
+  z-index: 999999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: white url("../preloader.gif") no-repeat center; }
+
+.portfolio_item .overlayed .overlay > div {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%); }
+  .portfolio_item .overlayed .overlay > div .overlay_title {
+    margin-top: 0; }
+
+.owl-nav {
+  width: 75px;
+  margin: auto;
+  margin-top: 25px; }
+  .owl-nav > div {
+    font-size: 23px;
+    cursor: pointer; }
+    .owl-nav > div.disabled {
+      opacity: 0.5; }
+  .owl-nav > .owl-prev {
+    float: left; }
+  .owl-nav > .owl-next {
+    float: right; }
+
+[led_osvetlenie]#axis_pos_systems {
+  padding-bottom: 50px; }
+[led_osvetlenie]#portfolio-osvetlenia {
+  padding-bottom: 0;
+  padding-top: 50px;
+  background: #f2f4f5; }
+  [led_osvetlenie]#portfolio-osvetlenia .overlay .overlay_title {
+    margin-top: 8%; }
+  [led_osvetlenie]#portfolio-osvetlenia p {
+    margin-bottom: 15px; }
+  [led_osvetlenie]#portfolio-osvetlenia ul {
+    max-width: 350px;
+    margin: auto; }
+    [led_osvetlenie]#portfolio-osvetlenia ul li {
+      display: inline-block;
+      width: 50%; }
+
+.inspirado_parallax_image2 {
+  background-image: url("http://placehold.it/1920x1280"); }
+
+.contact_section_style {
+  background-image: url("http://placehold.it/1920x750"); }
+
+.background_color_light_blue {
+  background-color: #f7f9fa; }
+
+.background_color_dark_blue {
+  background-color: #274796; }
+
+#domov-led-pre-vsetky-priestory .tcvpb_service_box:hover {
+  background-color: white; }
+
+.color-white {
+  color: white !important; }
+
+.color-black {
+  color: black !important; }
+
+.black_text {
+  color: black; }
+  .black_text span, .black_text p, .black_text a {
+    color: black !important; }
+  .black_text a.tcvpb-button1 {
+    border-color: #000; }
+
+.tcvpb_team_member {
+  padding: 1px; }
+  .tcvpb_team_member .tcvpb_overlayed {
+    display: block; }
+
+.button-style-1 {
+  background: transparent;
+  border: 1px solid #dee0e3;
+  color: #00d8ff;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 700;
+  padding: 14px 27px 15px 27px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 180ms ease-in;
+  -moz-transition: all 180ms ease-in;
+  -o-transition: all 180ms ease-in;
+  transition: all 180ms ease-in; }
+  .button-style-1:hover {
+    background: #00d8ff;
+    border: 1px solid #e1e3e6;
+    color: #fff; }
+  .button-style-1.button-small {
+    padding: 7px 22px 7px 22px; }
+
+.portfolio_item:hover .non-overlay {
+  opacity: 0; }
+.portfolio_item .non-overlay {
+  position: absolute;
+  left: 5px;
+  bottom: 5px;
+  width: calc(100% - 10px);
+  transition: 0.25s;
+  padding: 3px 6px;
+  background-color: rgba(255, 255, 255, 0.5); }
+  .portfolio_item .non-overlay .non-overlay_title {
+    color: #274796;
+    margin-bottom: 0 !important;
+    font-size: 16px;
+    font-weight: bold; }
+
+#o-nas-vyhody-led-svetiel img, #o-nas-prinasame-vam img {
+  padding: 12.5px 12.5px;
+  max-width: 55px;
+  max-height: 55px;
+  height: auto; }
+
+.g-recaptcha {
+  margin-bottom: 20px;
+  text-align: center; }
+  .g-recaptcha > div {
+    margin: auto; }
+
+[domov]#preco-my .crcl {
+  width: 140px;
+  margin: auto;
+  border: 1px solid #274796;
+  margin-top: -50px;
+  margin-bottom: -48px;
+  border-radius: 50%;
+  padding: 50px;
+  height: 140px;
+  text-align: center; }
+  [domov]#preco-my .crcl img {
+    margin: auto;
+    max-height: 38px; }
+
+.sponsors_logo img {
+  height: 90px; }
+
+#poskytujeme-led-osvetlenie-pre-owl {
+  position: relative;
+  height: auto !important; }
+  #poskytujeme-led-osvetlenie-pre-owl .portfolio_item_meta {
+    padding-top: 15px;
+    padding-bottom: 15px; }
+    #poskytujeme-led-osvetlenie-pre-owl .portfolio_item_meta h6 {
+      margin-bottom: 0; }
+      #poskytujeme-led-osvetlenie-pre-owl .portfolio_item_meta h6 a {
+        color: #18191a; }
+    #poskytujeme-led-osvetlenie-pre-owl .portfolio_item_meta p {
+      padding-bottom: 10px;
+      margin-bottom: 0; }
+  #poskytujeme-led-osvetlenie-pre-owl .owl-nav {
+    margin: 0; }
+    #poskytujeme-led-osvetlenie-pre-owl .owl-nav > div {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 40px; }
+      #poskytujeme-led-osvetlenie-pre-owl .owl-nav > div.owl-prev {
+        left: -25px; }
+      #poskytujeme-led-osvetlenie-pre-owl .owl-nav > div.owl-next {
+        right: -25px; }
+  #poskytujeme-led-osvetlenie-pre-owl .portfolio_icon:hover i {
+    color: #274796; }
+
+#main_menu_container > .container {
+  width: 1370px; }
+#main_menu_container #logo {
+  padding-top: 0;
+  margin-top: -6px;
+  margin-bottom: -14px; }
+
+nav > ul > li {
+  margin: 0 20px; }
+  nav > ul > li > a:after {
+    content: none; }
+  nav > ul > li:first-child {
+    margin-left: 0; }
+
+#single-portfolio-item .portfolio_single_column_item {
+  margin-bottom: 60px;
+  overflow: hidden;
+  border: 1px solid #e6e8eb;
+  text-align: left; }
+  #single-portfolio-item .portfolio_single_column_item .portfolio_inner_content {
+    overflow: hidden; }
+    #single-portfolio-item .portfolio_single_column_item .portfolio_inner_content .portfolio_single_container {
+      position: relative;
+      overflow: hidden; }
+      #single-portfolio-item .portfolio_single_column_item .portfolio_inner_content .portfolio_single_container .portfolio_thumb {
+        float: right;
+        margin-right: 0;
+        width: 60%; }
+        #single-portfolio-item .portfolio_single_column_item .portfolio_inner_content .portfolio_single_container .portfolio_thumb .overlayed {
+          position: relative;
+          text-align: center; }
+          #single-portfolio-item .portfolio_single_column_item .portfolio_inner_content .portfolio_single_container .portfolio_thumb .overlayed .portfolio_item img {
+            width: 100%;
+            height: auto;
+            vertical-align: top; }
+      #single-portfolio-item .portfolio_single_column_item .portfolio_inner_content .portfolio_single_container .portfolio_item_meta {
+        position: relative;
+        padding: 60px;
+        padding-right: 65.9%; }
+        #single-portfolio-item .portfolio_single_column_item .portfolio_inner_content .portfolio_single_container .portfolio_item_meta h2.portfolio_title {
+          margin-bottom: 0;
+          font-size: 22px;
+          line-height: 28px;
+          font-weight: 700;
+          text-transform: uppercase;
+          color: #18191a;
+          font-style: normal; }
+        #single-portfolio-item .portfolio_single_column_item .portfolio_inner_content .portfolio_single_container .portfolio_item_meta .portfolio_item_meta_category {
+          font-size: 14px;
+          line-height: 28px;
+          color: #9fa4af;
+          font-weight: 400;
+          margin-bottom: 21px;
+          padding-bottom: 21px;
+          font-style: italic;
+          position: relative; }
+          #single-portfolio-item .portfolio_single_column_item .portfolio_inner_content .portfolio_single_container .portfolio_item_meta .portfolio_item_meta_category:after {
+            display: block;
+            content: '';
+            width: 83px;
+            height: 1px;
+            background: #00d8ff;
+            position: absolute;
+            bottom: 0;
+            margin-left: 0; }
+        #single-portfolio-item .portfolio_single_column_item .portfolio_inner_content .portfolio_single_container .portfolio_item_meta .post-readmore.portfolio-readmore {
+          margin: 20px 0;
+          padding: 0; }
+          #single-portfolio-item .portfolio_single_column_item .portfolio_inner_content .portfolio_single_container .portfolio_item_meta .post-readmore.portfolio-readmore a.more-link {
+            background: #fff;
+            color: #00d8ff;
+            border: 1px solid #e1e3e6;
+            padding: 12px 35px 11px 37px;
+            margin-top: 13px;
+            font-size: 11px;
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 0.1px; }
+            #single-portfolio-item .portfolio_single_column_item .portfolio_inner_content .portfolio_single_container .portfolio_item_meta .post-readmore.portfolio-readmore a.more-link:hover {
+              background: #00D8FF;
+              color: #fff; }
+
+.unformat ul {
+  padding-left: 24px; }
+  .unformat ul li {
+    list-style-position: outside; }
+.unformat ol {
+  padding-left: 20px; }
+  .unformat ol li {
+    list-style-position: outside; }
+
+#rev_slider_1_1 .tp-caption.mediumlightwhite2 {
+  font-weight: 300 !important; }
+#rev_slider_1_1 .tp-caption.largeboldwhite2 {
+  font-weight: 400 !important; }
+#rev_slider_1_1 div {
+  font-family: 'Roboto Condensed', "Open Sans", sans-serif; }
+
+@media screen and (min-width: 1199px) {
+  #preco-my .tcvpb_column_tc_span2, #preco-my .tcvpb_column_tc_span3 {
+    padding: 0 10px; }
+
+  #single-portfolio-item[domov] .portfolio_single_column_item {
+    margin-bottom: 0; }
+
+  [led_osvetlenie]#axis_pos_systems {
+    padding: 100px 0; }
+
+  #kontakt-mapa {
+    margin-bottom: 5px !important; } }
+@media screen and (max-width: 1370px) {
+  #main_menu_container {
+    width: 100%; }
+    #main_menu_container > .container {
+      width: 100%; } }
+@media screen and (max-width: 979px) {
+  .header_sidebar_toggle span, .header_sidebar_toggle span:before, .header_sidebar_toggle span:after {
+    background-color: #274796; }
+
+  #main_menu_container .header_sidebar_toggle {
+    margin-top: 9px; }
+  #main_menu_container nav {
+    overflow: hidden; }
+    #main_menu_container nav ul li {
+      margin: 0;
+      padding: 4px 1px; }
+      #main_menu_container nav ul li a {
+        padding: 6px 12px;
+        font-size: 18px; } }
+@media screen and (max-width: 1199px) {
+  .container {
+    padding: 0 15px; }
+
+  #domov-uvod {
+    padding: 0 !important; }
+
+  #single-portfolio-item[domov] {
+    padding: 0 !important; }
+    #single-portfolio-item[domov] .container {
+      padding: 0;
+      width: 100%; }
+      #single-portfolio-item[domov] .container .portfolio_single_column_item {
+        margin-bottom: 0; }
+
+  .tcvpb_section_tc {
+    padding: 75px 0 !important; }
+
+  #preco-my[domov] .tcvpb_service_box {
+    margin-bottom: 0; }
+
+  #domov-cta .tcvpb-callout_box {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0; }
+
+  #konkretna-referencia-dalsie-referencie {
+    padding-top: 0 !important; }
+    #konkretna-referencia-dalsie-referencie .more_portfolio_link {
+      margin-bottom: 0; }
+
+  #referencie-title p, #referencie-title .tcvpb_container {
+    margin-bottom: 0; }
+
+  #o-nas-osvetlenie-uvod {
+    padding-bottom: 0 !important; }
+    #o-nas-osvetlenie-uvod .tcvpb_container {
+      width: 100%; }
+
+  .cta[o_nas] .tcvpb-callout_box, .cta[led_osvetlenie] .tcvpb-callout_box, #referencie-cta .tcvpb-callout_box {
+    overflow: hidden !important;
+    padding: 0 50px !important; }
+    .cta[o_nas] .tcvpb-callout_box .tcvpb-callout_box_title, .cta[led_osvetlenie] .tcvpb-callout_box .tcvpb-callout_box_title, #referencie-cta .tcvpb-callout_box .tcvpb-callout_box_title {
+      float: left;
+      margin-bottom: 0;
+      margin-top: 15px; }
+    .cta[o_nas] .tcvpb-callout_box .tcvpb-button1, .cta[led_osvetlenie] .tcvpb-callout_box .tcvpb-button1, #referencie-cta .tcvpb-callout_box .tcvpb-button1 {
+      float: right;
+      margin-top: 0 !important; }
+
+  #o-nas-prinasame-vam {
+    padding-bottom: 39px !important; }
+
+  #related_portfolio[led_osvetlenie] {
+    padding: 75px 0; }
+    #related_portfolio[led_osvetlenie] > .container {
+      margin-top: 0; }
+      #related_portfolio[led_osvetlenie] > .container h3 {
+        line-height: 1.2;
+        padding-bottom: 20px; }
+
+  #uspory-v-osvetleni-cta .spacer_110, #uspory-v-osvetleni-cta .spacer_113 {
+    display: none; }
+
+  nav > ul > li {
+    margin: 0 12px; }
+
+  #headline_breadcrumbs_bar {
+    padding: 150px 0 !important; }
+
+  #single-portfolio-item[domov] img {
+    object-fit: cover;
+    width: 100%; }
+  #single-portfolio-item[domov] a.more-link {
+    display: inline-block; }
+
+  #konkretna-referencia-dalsie-referencie .overlayed {
+    height: 225px; }
+    #konkretna-referencia-dalsie-referencie .overlayed img {
+      height: 225px;
+      object-fit: cover;
+      width: 100%; }
+    #konkretna-referencia-dalsie-referencie .overlayed p.portfolio_item_tags {
+      display: none; }
+    #konkretna-referencia-dalsie-referencie .overlayed .portfolio_icon {
+      margin-right: 0; }
+
+  [led_osvetlenie]#axis_pos_systems .obj-ft img {
+    width: 100%;
+    object-fit: cover; }
+
+  [uspory-v-osvetleni]#o-nas-vyhody-led-svetiel {
+    padding-bottom: 29px !important; }
+
+  [konkretna-referencia]#simple_item_portfolio {
+    margin-top: 0;
+    padding-bottom: 75px; }
+    [konkretna-referencia]#simple_item_portfolio .media_container {
+      width: 100%;
+      height: 250px;
+      margin-bottom: 75px; }
+      [konkretna-referencia]#simple_item_portfolio .media_container img {
+        height: 250px;
+        object-fit: cover;
+        width: 100%; }
+
+  #konkretna-referencia-dalsie-referencie[konkretna-referencia] {
+    padding-top: 75px !important; }
+
+  #kontakt-wrapper {
+    padding-bottom: 39px !important; }
+
+  #kontakt-mapa {
+    padding: 0 !important;
+    margin-bottom: 5px !important; } }
+@media screen and (max-width: 992px) {
+  [o_nas].cta .tcvpb-callout_box, .cta[led_osvetlenie] .tcvpb-callout_box, #referencie-cta .tcvpb-callout_box {
+    text-align: center; }
+  [o_nas].cta .tcvpb-callout_box_title, .cta[led_osvetlenie] .tcvpb-callout_box_title, #referencie-cta .tcvpb-callout_box_title {
+    margin-top: 0 !important;
+    margin-bottom: 15px !important;
+    float: none !important;
+    display: block;
+    text-align: center; }
+  [o_nas].cta a, .cta[led_osvetlenie] a, #referencie-cta a {
+    float: none !important;
+    display: inline-block; }
+
+  #ABdev_main_footer .container {
+    width: 100%; }
+    #ABdev_main_footer .container .span3 {
+      width: 50% !important;
+      margin: 0 -1px;
+      padding: 0 10px; }
+      #ABdev_main_footer .container .span3:nth-of-type(3) {
+        clear: both; }
+
+  #single-portfolio-item[domov] .portfolio_thumb {
+    width: 100% !important;
+    float: none !important; }
+    #single-portfolio-item[domov] .portfolio_thumb .overlayed {
+      height: 250px !important; }
+      #single-portfolio-item[domov] .portfolio_thumb .overlayed img {
+        height: 250px !important; }
+  #single-portfolio-item[domov] .portfolio_item_meta {
+    padding: 75px 15px !important; }
+    #single-portfolio-item[domov] .portfolio_item_meta .post-readmore {
+      margin-bottom: 0 !important; }
+
+  #preco-my[domov] .tcvpb_container {
+    text-align: center; }
+    #preco-my[domov] .tcvpb_container .tcvpb_column_tc_span3, #preco-my[domov] .tcvpb_container .tcvpb_column_tc_span2 {
+      width: calc(33.33% - 4px) !important;
+      margin: auto !important;
+      float: none;
+      display: inline-block; }
+    #preco-my[domov] .tcvpb_container > div:nth-of-type(4) {
+      clear: both; }
+    #preco-my[domov] .tcvpb_container .tcvpb_service_box {
+      padding-left: 10px;
+      padding-right: 10px; }
+
+  #konkretna-referencia-dalsie-referencie .portfolio_item_3 {
+    width: 33.33%; }
+
+  #o-nas-prinasame-vam .tcvpb_column_tc_span4 {
+    width: 100%;
+    margin-left: 0; }
+
+  #uspory-v-osvetleni-pripadove-studie {
+    padding-bottom: 5px !important; }
+    #uspory-v-osvetleni-pripadove-studie .portfolio_item_4 {
+      width: 50% !important; }
+
+  #referencie-zoznam li {
+    margin: 1px 0; }
+  #referencie-zoznam .tcvpb_column_tc_span4 {
+    width: calc(50% - 20px) !important; } }
+@media screen and (min-width: 767px) {
+  .visible-xs {
+    display: none !important; } }
+@media screen and (max-width: 767px) {
+  [o_nas].cta a, .cta[led_osvetlenie] a, #referencie-cta a {
+    margin-bottom: 0; }
+
+  .visible-xs {
+    display: block !important; }
+
+  .hidden-xs {
+    display: none !important; }
+
+  #footer-form input {
+    margin-bottom: 0; }
+
+  #back_to_top {
+    top: -35px;
+    padding: 17px 19px;
+    background-color: rgba(255, 255, 255, 0.75); }
+    #back_to_top:hover:before {
+      border-color: white; }
+
+  #rev_slider_1_1 .tp-caption {
+    font-size: 45px !important;
+    font-weight: 400 !important; }
+  #rev_slider_1_1 .tp-parallax-wrap {
+    left: 0 !important;
+    width: 100%; }
+    #rev_slider_1_1 .tp-parallax-wrap > div {
+      width: 100%; }
+
+  #domov-nase-sluzby .tcvpb_team_member {
+    margin-bottom: 0; }
+    #domov-nase-sluzby .tcvpb_team_member .img_cont:after {
+      background-color: transparent !important; }
+
+  #konkretna-referencia-dalsie-referencie .portfolio_item_3 {
+    margin-bottom: 1px !important; }
+
+  [domov]#usetrili_s_nami .carousel_navigation a:hover i {
+    border-color: #274796 !important;
+    color: #274796 !important; }
+
+  #preco-my[domov] {
+    background-attachment: scroll !important; }
+    #preco-my[domov] .tcvpb_container .tcvpb_column_tc_span3, #preco-my[domov] .tcvpb_container .tcvpb_column_tc_span2 {
+      width: calc(50% - 4px) !important; }
+      #preco-my[domov] .tcvpb_container .tcvpb_column_tc_span3 h3, #preco-my[domov] .tcvpb_container .tcvpb_column_tc_span2 h3 {
+        margin-bottom: 5px;
+        margin-top: 20px; }
+      #preco-my[domov] .tcvpb_container .tcvpb_column_tc_span3 .tcvpb_service_box, #preco-my[domov] .tcvpb_container .tcvpb_column_tc_span2 .tcvpb_service_box {
+        padding-top: 25px; }
+    #preco-my[domov] .tcvpb_container .tcvpb_icon_boxed.crcl {
+      width: 90px;
+      height: 90px;
+      padding: 20px;
+      margin: auto; }
+      #preco-my[domov] .tcvpb_container .tcvpb_icon_boxed.crcl img {
+        padding-top: 7px; }
+    #preco-my[domov] .tcvpb_container .tcvpb_icon_boxed i {
+      padding: 25px; }
+
+  #konkretna-referencia-dalsie-referencie .portfolio_item_3 {
+    width: 50%; }
+    #konkretna-referencia-dalsie-referencie .portfolio_item_3:last-of-type {
+      display: none; }
+
+  #o-nas-osvetlenie-uvod p.header-text {
+    padding: 0 15px; }
+
+  #o-nas-nasi-partneri .tcvpb_container .tcvpb_column_tc_span3:nth-of-type(1), #o-nas-nasi-partneri .tcvpb_container .tcvpb_column_tc_span3:nth-of-type(4) {
+    display: none; }
+  #o-nas-nasi-partneri .tcvpb_container .tcvpb_column_tc_span3 {
+    width: 50%; }
+    #o-nas-nasi-partneri .tcvpb_container .tcvpb_column_tc_span3 .tcvpb_overlayed img {
+      height: 125px;
+      margin: auto; }
+
+  [led_osvetlenie]#axis_pos_systems .obj-ft {
+    margin-bottom: 30px; }
+
+  #uspory-v-osvetleni-cta .parallax_font_36 {
+    line-height: 1.2; }
+
+  #uspory-v-osvetleni-pripadove-studie .portfolio_item_4 {
+    border-bottom: 1px solid #274796; }
+
+  #kontakt-wrapper .tcvpb_service_box {
+    padding: 22px 0;
+    margin-bottom: 10px;
+    height: auto !important; } }
+@media screen and (max-width: 560px) {
+  footer#ABdev_main_footer .container .span3 {
+    width: 100% !important; }
+
+  #preco-my[domov] .tcvpb_container .tcvpb_column_tc_span3, #preco-my[domov] .tcvpb_container .tcvpb_column_tc_span2 {
+    width: 100% !important; }
+
+  #konkretna-referencia-dalsie-referencie .portfolio_item_3 {
+    display: block !important;
+    width: 100%; }
+
+  #uspory-v-osvetleni-pripadove-studie .portfolio_item_4 {
+    width: 100% !important; }
+
+  #referencie-zoznam .tcvpb_column_tc_span4 {
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-bottom: 2px !important;
+    margin-right: 0 !important; }
+    #referencie-zoznam .tcvpb_column_tc_span4 .tcvpb_posts_shortcode {
+      margin-bottom: 0 !important; }
+  #referencie-zoznam .isotope-container {
+    width: 100%; } }
+
+/*# sourceMappingURL=importer.css.map */
