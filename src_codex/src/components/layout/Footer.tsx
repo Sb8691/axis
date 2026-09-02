@@ -34,7 +34,7 @@ export function Footer() {
             aria-label="AXIS Energy Solutions – domov"
             className="inline-block bg-white p-2 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-lime"
           >
-            <img src={assetUrl('images/axis-logo.webp')} alt="AXIS Energy Solutions" width="428" height="187" className="w-[145px]" loading="lazy" />
+            <img src={assetUrl('images/axis-logo-brand.webp')} alt="AXIS Energy Solutions" width="768" height="384" className="w-[145px]" loading="lazy" />
           </Link>
           <p className="mt-6 max-w-sm text-[15px] leading-7 text-white/65">
             Projekty, inžiniering, inštalácia a servis fotovoltických elektrární, energetických riešení a LED osvetlenia.

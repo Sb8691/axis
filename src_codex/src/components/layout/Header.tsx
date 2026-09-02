@@ -48,11 +48,11 @@ export function Header() {
           aria-label="AXIS Energy Solutions – domov"
         >
           <img
-            src={assetUrl('images/axis-logo.webp')}
+            src={assetUrl('images/axis-logo-brand.webp')}
             alt="AXIS Energy Solutions"
-            className="h-auto w-[130px] lg:w-[154px]"
-            width="428"
-            height="187"
+            className="h-auto w-[124px] lg:w-[145px]"
+            width="768"
+            height="384"
           />
         </Link>
 
