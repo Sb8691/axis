@@ -1,10 +1,13 @@
 import { ArrowRight, Phone } from 'lucide-react'
+import { Link } from 'react-router-dom'
+import { company } from '../../data/company'
+import { assetUrl } from '../../lib/assets'
 
 export function FinalCta() {
   return (
     <section id="kontakt" className="relative scroll-mt-20 overflow-hidden bg-navy py-16 text-white sm:py-20" aria-labelledby="cta-title">
       <img
-        src="/images/axis-industrial-solar.webp"
+        src={assetUrl('images/axis-industrial-solar.webp')}
         alt=""
         width="1170"
         height="658"
@@ -21,13 +24,13 @@ export function FinalCta() {
           <p className="mt-4 text-base leading-7 text-white/70 sm:text-lg">Nezáväzná konzultácia a predbežný návrh zdarma.</p>
         </div>
         <div className="grid gap-3 sm:grid-cols-2 lg:min-w-[520px]">
-          <a href="mailto:axises@axis.sk?subject=Nez%C3%A1v%C3%A4zn%C3%A1%20konzult%C3%A1cia" className="button-primary w-full">
+          <Link to="/kontakt" className="button-primary w-full">
             Dohodnúť konzultáciu
             <ArrowRight className="h-4 w-4" aria-hidden="true" />
-          </a>
-          <a href="tel:+421948465331" className="button-phone w-full">
+          </Link>
+          <a href={company.phoneHref} className="button-phone w-full">
             <Phone className="h-5 w-5 text-lime" aria-hidden="true" />
-            <span><small className="block text-[10px] font-medium text-white/55">alebo volajte</small>+421 948 465 331</span>
+            <span><small className="block text-[10px] font-medium text-white/55">alebo volajte</small>{company.phoneDisplay}</span>
           </a>
         </div>
       </div>

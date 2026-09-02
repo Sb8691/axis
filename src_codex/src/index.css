@@ -23,6 +23,13 @@
     overflow-x: hidden;
   }
 
+  button,
+  input,
+  select,
+  textarea {
+    font: inherit;
+  }
+
   img {
     display: block;
     max-width: 100%;
@@ -54,6 +61,10 @@
     @apply mx-auto w-full max-w-[1280px] px-5 sm:px-8 lg:px-10 xl:px-12;
   }
 
+  .skip-link {
+    @apply fixed left-4 top-4 z-[100] -translate-y-24 bg-lime px-4 py-3 text-sm font-extrabold text-ink transition-transform focus:translate-y-0 focus:outline focus:outline-2 focus:outline-offset-2 focus:outline-ink;
+  }
+
   .eyebrow {
     @apply text-[11px] font-extrabold uppercase tracking-[0.16em] text-[#91a900];
   }
@@ -63,7 +74,7 @@
   }
 
   .button-primary {
-    @apply inline-flex min-h-12 items-center justify-center gap-2 bg-lime px-6 py-3 text-center text-[11px] font-extrabold uppercase tracking-[0.1em] text-ink transition-colors hover:bg-lime-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-ink;
+    @apply inline-flex min-h-12 items-center justify-center gap-2 bg-lime px-6 py-3 text-center text-[11px] font-extrabold uppercase tracking-[0.1em] text-ink transition-colors hover:bg-lime-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-ink disabled:cursor-not-allowed disabled:opacity-60;
   }
 
   .button-secondary {
@@ -86,6 +97,18 @@
     @apply flex min-h-7 items-center gap-3 transition-colors hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-lime;
   }
 
+  .form-label {
+    @apply mb-2 block text-sm font-bold text-ink;
+  }
+
+  .form-field {
+    @apply min-h-12 w-full rounded-none border border-slate-300 bg-white px-4 py-3 text-base text-ink outline-none transition-colors placeholder:text-slate-400 hover:border-slate-400 focus:border-[#829900] focus:ring-2 focus:ring-lime/30;
+  }
+
+  .form-field[aria-invalid='true'] {
+    @apply border-red-600 focus:border-red-700 focus:ring-red-100;
+  }
+
   .process-list::before {
     content: '';
     position: absolute;
@@ -95,7 +118,8 @@
 }
 
 @media (min-width: 1024px) {
-  .hero-image-wrap {
+  .hero-image-wrap,
+  .page-hero-image {
     clip-path: polygon(8% 0, 100% 0, 100% 100%, 0 100%);
   }
 

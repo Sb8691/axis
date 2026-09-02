@@ -4,14 +4,17 @@ import { Process } from '../components/home/Process'
 import { References } from '../components/home/References'
 import { Solutions } from '../components/home/Solutions'
 import { Stats } from '../components/home/Stats'
-import { Footer } from '../components/layout/Footer'
-import { Header } from '../components/layout/Header'
+import { Seo } from '../components/Seo'
 
 export function HomePage() {
   return (
     <>
-      <Header />
-      <main>
+      <Seo
+        title="AXIS Energy Solutions | Energetické riešenia pre firmy"
+        description="Fotovoltické elektrárne, inteligentné energetické riešenia a LED osvetlenie pre firmy. Od analýzy a návrhu až po realizáciu, monitoring a servis."
+        path="/"
+      />
+      <main id="main-content">
         <Hero />
         <Stats />
         <Solutions />
@@ -19,7 +22,6 @@ export function HomePage() {
         <Process />
         <FinalCta />
       </main>
-      <Footer />
     </>
   )
 }

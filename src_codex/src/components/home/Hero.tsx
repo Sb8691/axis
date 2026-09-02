@@ -1,4 +1,6 @@
 import { ArrowDownRight, ArrowRight } from 'lucide-react'
+import { Link } from 'react-router-dom'
+import { assetUrl } from '../../lib/assets'
 
 export function Hero() {
   return (
@@ -14,21 +16,21 @@ export function Hero() {
               Navrhujeme a realizujeme fotovoltiku, inteligentné energetické riešenia a LED osvetlenie od prvého výpočtu až po dlhodobý servis.
             </p>
             <div className="mt-8 grid gap-3 sm:flex sm:flex-wrap">
-              <a href="#kontakt" className="button-primary sm:min-w-[228px]">
+              <Link to="/kontakt" className="button-primary sm:min-w-[228px]">
                 Nezáväzná konzultácia
                 <ArrowRight className="h-4 w-4" aria-hidden="true" />
-              </a>
-              <a href="#referencie" className="button-secondary sm:min-w-[210px]">
+              </Link>
+              <Link to="/referencie" className="button-secondary sm:min-w-[210px]">
                 Pozrieť realizácie
                 <ArrowDownRight className="h-4 w-4" aria-hidden="true" />
-              </a>
+              </Link>
             </div>
           </div>
         </div>
 
         <div className="hero-image-wrap relative min-h-[340px] w-screen sm:min-h-[440px] lg:min-h-0 lg:w-auto">
           <img
-            src="/images/axis-industrial-solar.webp"
+            src={assetUrl('images/axis-industrial-solar.webp')}
             alt="Priemyselný areál s fotovoltickou elektrárňou AXIS"
             width="1170"
             height="658"

@@ -1,7 +1,7 @@
 import { Check } from 'lucide-react'
 import { ArrowLink } from '../ArrowLink'
 import { SectionIntro } from '../SectionIntro'
-import { solutions } from '../../data/solutions'
+import { homeSolutions } from '../../data/solutions'
 
 export function Solutions() {
   return (
@@ -9,14 +9,14 @@ export function Solutions() {
       <div className="site-container">
         <SectionIntro id="solutions-title" eyebrow="Naše riešenia" title="Komplexná starostlivosť o vašu energiu" />
         <div className="mt-12 grid gap-7 lg:mt-14 lg:grid-cols-3 lg:gap-6 xl:gap-8">
-          {solutions.map(({ title, description, image, imageAlt, icon: Icon, benefits, href, imageClassName }) => (
+          {homeSolutions.map(({ title, description, image, imageAlt, imageWidth, imageHeight, icon: Icon, benefits, href, imageClassName }) => (
             <article key={title} className="group flex flex-col overflow-hidden border border-slate-200 bg-white shadow-card transition-transform duration-300 hover:-translate-y-1">
               <div className="relative aspect-[16/9] overflow-hidden bg-slate-100">
                 <img
                   src={image}
                   alt={imageAlt}
-                  width="1200"
-                  height="630"
+                  width={imageWidth}
+                  height={imageHeight}
                   loading="lazy"
                   className={`h-full w-full transition-transform duration-500 group-hover:scale-[1.025] ${imageClassName ?? 'object-cover'}`}
                 />
