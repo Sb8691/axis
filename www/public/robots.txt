@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap:https://axis.sk/sitemap.xml

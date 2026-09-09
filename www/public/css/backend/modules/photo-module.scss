@@ -1,0 +1,115 @@
+@import "../backend_variables";
+div {
+  &:hover {
+    > #zoom {
+      opacity: 1!important;
+    }
+  }
+  #zoom {
+    opacity: 0;
+    transition: 0.3s;
+    left: 80%;
+    position: absolute;
+    bottom: 0;
+    transform: translateY(-50%) translateX(-50%);
+    background-color: rgba(255,255,255,0.4);
+    height: 35px;
+    width: 175px;
+    font-size: 15px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 0px 15px;
+    i {
+      display: inline-block;
+      line-height: 35px;
+    }
+    input[type=range] {
+      width: 100px;
+      display: inline-block;
+      height: 35px;
+    }
+  }
+}
+#current_image_container {
+  position: relative;
+  min-height: 200px;
+  img {
+    object-fit: cover;
+    min-height: 200px;
+    width: 100%;
+  }
+
+  i.fa {
+    &.fa-search {
+      left: 90%;
+      pointer-events: none;
+    }
+
+    position: absolute;
+    bottom: 0;
+    transform: translateY(-50%) translateX(-50%);
+    background-color: rgba(255,255,255,0.4);
+    height: 35px;
+    width: 35px;
+    font-size: 15px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 50%;
+  }
+}
+#default_images {
+  .default_image_container {
+    &:after {
+      content: '';
+      right: 0;
+      top: 0;
+      height: 100%;
+      background-color: rgba(255,255,255,0.25);
+      width: 1px;
+      position: absolute;
+    }
+
+    &:hover {
+      .fa-check {
+        opacity: 1!important;
+      }
+    }
+
+    i.fa {
+      position: absolute;
+
+      &.default_image_selected {
+        color: $active-color;
+      }
+
+      &.fa-check {
+        transition: 0.3s;
+        left: 10%;
+        cursor: pointer;
+
+        &:not(.default_image_selected) {
+          opacity: 0;
+        }
+      }
+      &.fa-search {
+        left: 90%;
+        pointer-events: none;
+      }
+
+      bottom: 0;
+      transform: translateY(-50%) translateX(-50%);
+      background-color: rgba(255,255,255,0.4);
+      height: 35px;
+      width: 35px;
+      font-size: 15px;
+      line-height: 35px;
+      text-align: center;
+      border-radius: 50%;
+    }
+  }
+
+  .lacobox-single-trigger, .lacobox-multiple-trigger {
+    cursor: pointer;
+  }
+}

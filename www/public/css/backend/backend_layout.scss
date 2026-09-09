@@ -1,0 +1,15 @@
+@import "backend_variables";
+
+.main-sidebar {
+  padding-top: 0px;
+
+  .sidebar {
+    padding-top: 50px;
+  }
+  // LINKS
+  li {
+    a {
+      transition: 0.25s;
+    }
+  }
+}

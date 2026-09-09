@@ -1,0 +1,432 @@
+$f1: #274796;
+$f2: #0f265d;
+$f3: #5069aa;
+
+// HEADER
+nav > ul ul {
+  background: white;
+}
+// FOOTER
+  footer {
+    #footer_columns {
+      background: $f2;
+
+      p,i,a {
+        color: white!important;
+      }
+      h3 {
+        &:after {
+          background: white!important;
+        }
+      }
+    }
+    #footer_copyright {
+      background: white;
+
+      a:hover {
+        color: $f1;
+      }
+    }
+  }
+// PAGES
+  .intro_text_after header p:after, .portfolio_item_meta_category:after, .title_with_after:after, .title_text_after header h3:after, #related_portfolio h3:before  { background: $f1!important; }
+  ::selection, .single_portfolio_heading:before { background: $f1; }
+  nav li:hover > a, nav li.current-menu-item > a, nav li.current_page_item > a{ color: $f1!important; }
+  // KONTAKT
+    #kontakt-wrapper {
+      .tcvpb_service_box {
+        .icon_color {
+          color: $f1!important;
+        }
+      }
+    }
+.portfolio_item:hover .overlayed .overlay {
+  background: $f1;
+  opacity: 0.85;
+}
+.button-1, .wpcf7 .transparent_form input[type="submit"] {
+  background: transparent!important;
+  border: 1px solid #bdc3c7!important;
+  color: #fff !important;
+  font-size: 15px;
+  font-weight: 700;
+
+  &:hover {
+    background: #fff!important;
+    border: 1px solid transparent!important;
+    color: $f2 !important;
+  }
+}
+.button-2 {
+  color: $f1!important;
+  background: transparent;
+  border: 1px solid #dee0e3;
+
+  &:hover {
+    background-color: $f1!important;
+    border: 1px solid #e1e3e6;
+    color: #fff!important;
+  }
+}
+.tcvpb_metro_box .flipper .back {
+  background: $f1;
+}
+.icons_f1 {
+  .icon_color {
+    color: $f1!important;
+  }
+}
+.blue_box_background {
+  background-color: $f1;
+}
+
+.ui-accordion-header:hover, .tcvpb-accordion .ui-accordion-header-active {
+  background: $f1!important;
+  -webkit-box-shadow: inset 0 2px 0 0 $f1;
+  -moz-box-shadow: inset 0 2px 0 0 $f1;
+  box-shadow: inset 0 2px 0 0 $f1;
+}
+.portfolio_icon:hover i {
+  color: #274796 !important;
+}
+#kontakt-wrapper {
+  a:hover {
+    color: #5069aa;
+  }
+}
+  // FOOTER
+
+  #footer-form {
+    &.pattern_overlayed:before {
+      background: rgba(255,255,255,0.73)!important;
+    }
+    h3, input, textarea {
+      color: black!important;
+    }
+    input, textarea {
+      border-color: black;
+    }
+    ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+      color: black;
+    }
+    ::-moz-placeholder { /* Firefox 19+ */
+      color: black;
+    }
+    :-ms-input-placeholder { /* IE 10+ */
+      color: black;
+    }
+    :-moz-placeholder { /* Firefox 18- */
+      color: black;
+    }
+    input[type=submit] {
+      border: 1px solid black!important;
+    }
+  }
+
+  input:focus, textarea:focus {
+    outline-width: 1px!important;
+    outline-offset: 0!important;
+    outline-color: #5069aa!important;
+    outline-style: solid!important;
+  }
+
+  // DOMOV
+    [domov] {
+      #rev_slider_1_1 {
+        /*.slotholder:before {
+          position: absolute;
+          content: '';
+          left: 0; top: 0;
+          width: 100%; height: 100%;
+          background-color: rgba(255,255,255,0.73);
+        }*/
+        div {
+          color: white!important;
+        }
+        .tp-caption {
+          color: white;
+          &:before, &:after {
+            background: white!important;
+          }
+        }
+        a {
+          color: white!important;
+          border-color: white!important;
+          &:hover {
+            color: white!important;
+          }
+        }
+        .tp-caption.small_light_white:before, .tp-caption.small_light_white:after {
+          background: black;
+        }
+      }
+      .inspirado_transparent_button:hover {
+        background-color: $f1!important;
+      }
+
+      #domov-nase-sluzby {
+        .tcvpb_team_member {
+          .tcvpb_team_member_link {
+            padding: 20px 45px 20px 45px;
+            background-color: $f3;
+            span {
+              color: white;
+              margin-bottom: 0;
+            }
+          }
+          .tcvpb_team_member_position {
+            line-height: 1.25;
+            text-align: left;
+          }
+          .img_cont {
+            position: relative;
+            &:after {
+              position: absolute;
+              content: '';
+              left: 0; top: 0;
+              width: 100%; height: 100%;
+              background-color: rgba(0,0,0,0.44);
+              transition: 0.19s;
+            }
+          }
+          &:hover {
+            .img_cont {
+              &:after {
+                opacity: 0;
+              }
+            }
+          }
+        }
+      }
+
+      .tcvpb_team_member:hover .tcvpb_team_member_name {
+        color: $f1;
+      }
+      .tcvpb_team_member:hover .tcvpb_team_member_position {
+        color: #99a1ae;
+      }
+
+      &#single-portfolio-item .portfolio_single_column_item {
+        background-color: #f2f4f5;
+
+        > div {
+          background-color: #f2f4f5;
+        }
+
+        li {
+          list-style-position: inside;
+        }
+      }
+
+      &#preco-my {
+        &:before {
+          background-color: rgba(38, 71, 153, 0.78);
+        }
+        .tcvpb_icon_boxed i {
+          border-color: $f1;
+        }
+        .icon_color {
+          color: #fff!important;
+        }
+        header p:after {
+          background: white!important;
+        }
+      }
+
+      .color_highlight {
+        color: $f1!important;
+      }
+
+      &#domov-led-pre-vsetky-priestory {
+        background-color: #f2f4f5;
+      }
+
+      &#usetrili_s_nami {
+        background-color: $f2;
+      }
+    }
+
+  // O NÁS
+    [o_nas] {
+      &.cta {
+        background-color: $f2;
+      }
+      .inspirado.tparrows {
+        border-color: $f1;
+        background-color: $f1;
+
+        &:hover {
+          border-color: $f1;
+        }
+      }
+      &#o-nas-nasi-partneri {
+        &:before {
+          content: '';
+          position: absolute;
+          left: 0;
+          top: 0;
+          height: 100%;
+          width: 100%;
+          background: rgba(38,71,153,0.78);
+        }
+        .tcvpb_team_member {
+          box-shadow: none;
+        }
+      }
+      &#usetrili_s_nami {
+        background-color: $f3!important;
+        h3 {
+          color: white!important;
+        }
+      }
+      &#o-nas-prinasame-vam {
+        h3 {
+          color: $f1;
+        }
+      }
+
+      .icon_color {
+        color: $f1!important;
+      }
+
+      .tcvpb-tabs .nav-tabs li.active a, .tcvpb-tabs.tcvpb-tabs-timeline ul li:hover a {
+        color: $f1;
+      }
+
+      .tcvpb-tabs.tcvpb-tabs-timeline .nav-tabs li.active:before {
+        border-color: $f1;
+      }
+
+      .tcvpb-tabs.tcvpb-tabs-timeline .tab-pane {
+        background-color: $f2;
+
+        p {
+          color: white;
+        }
+      }
+
+      .tcvpb-tabs.tcvpb-tabs-timeline .nav-tabs li.active:after {
+        background: $f2;
+      }
+
+      #historia-nasej-spolocnosti {
+        &.tcvpb_section_tc.title_text_after header h3:after {
+          background: $f1!important;
+        }
+      }
+
+      .tcvpb_team_member:hover .tcvpb_team_member_name {
+        color: initial;
+      }
+
+      .tcvpb-callout_box_style_3 {
+        background: transparent;
+      }
+
+      .tcvpb_service_box.tcvpb_service_box_icon_aside_left .tcvpb_icon_boxed i {
+        color: $f1!important;
+      }
+    }
+
+  // REFERENCIE
+    .portfolio_filter li a.selected, .portfolio_filter li:hover, .portfolio_filter li:hover a {
+      color: #274796;
+    }
+
+  // FAQ
+
+  // USPORY V OSVETLENI
+
+  // LED OSVETLENIE
+    [led_osvetlenie] {
+      &#related_portfolio {
+        background-color: $f3;
+        h3 {
+          color: white;
+          &:before {
+            background: white!important;
+          }
+        }
+        .portfolio_inner_content {
+          background: white;
+          .overlay:hover:before {
+            background: #274796;
+          }
+        }
+      }
+
+      &.tcvpb_section_tc header p {
+        padding: 0 160px 1px;
+      }
+
+      .color_highlight, .icon_color {
+        color: $f1!important;
+      }
+
+      &.cta  {
+        background-color: $f2!important;
+      }
+      &#led-osvetlenie-vyrobime-vam-osvetlenie {
+        background: white;
+        &:before {
+          content: none;
+        }
+      }
+    }
+
+    // KONKRETNA REFERENCIA
+      [konkretna-referencia] {
+        &#konkretna-referencia-dalsie-referencie {
+          background-color: $f3;
+
+          h3, p {
+            color: #fff;
+          }
+
+          &.tcvpb_section_tc.intro_text_after header p:after {
+            background: #fff!important;
+          }
+          .more_portfolio_link {
+
+            a {
+              color: #fff;
+
+              &:hover {
+                background: white;
+                color: $f1;
+              }
+            }
+          }
+
+          .portfolio_icon:hover i{
+            color: $f1!important;
+          }
+        }
+      }
+
+      #uspory-v-osvetleni-pripadove-studie {
+        background: $f3;
+        p, h3 {
+          color: white;
+          &:after {
+            background: white!important;
+          }
+        }
+        .overlay {
+          background: white!important;
+          p {
+            color: black;
+          }
+        }
+      }
+      #uspory-v-osvetleni-partneri {
+        &:before {
+          content: '';
+          position: absolute;
+          left: 0;
+          top: 0;
+          height: 100%;
+          width: 100%;
+          background: rgba(38,71,153,0.78);
+        }
+      }

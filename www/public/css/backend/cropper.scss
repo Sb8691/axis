@@ -1,0 +1,59 @@
+#photo-module-container {
+  #upload-photo, #crop-photo {
+    cursor: pointer!important;
+  }
+  #photo-module-image-container {
+    position: relative;
+
+    .fa.fa-arrows-alt {
+      background-color: rgba(255,255,255,0.4);
+      padding: 10px;
+      cursor: help;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+      opacity: 0;
+      transition: 0.5s;
+    }
+
+    &:hover {
+      .fa.fa-arrows-alt {
+        opacity: 1;
+      }
+    }
+  }
+  .cropit {
+    .cropit-preview {
+      background-color: #f8f8f8;
+      background-size: cover;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      margin-top: 7px;
+      width: 250px;
+      height: 250px;
+    }
+
+    .cropit-preview-image-container {
+      cursor: move;
+    }
+
+    i.fa {
+      font-size: 1.65em;
+
+      &.fa-search-plus {
+        float: left;
+      }
+    }
+    .cropit-range {
+      float: left;
+      margin-left: 15px;
+      width: calc(100% - 40px);
+    }
+    .accept-changes {
+      cursor: pointer!important;
+    }
+    .changes_saved {
+      color: $active-color;
+    }
+  }
+}

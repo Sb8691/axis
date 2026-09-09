@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,aAAc;EACZ,WAAW,EAAE,GAAG;EAEhB,sBAAS;IACP,WAAW,EAAE,IAAI;EAIjB,kBAAE;IACA,UAAU,EAAE,KAAK",
+"sources": ["backend_layout.scss"],
+"names": [],
+"file": "backend_layout.css"
+}

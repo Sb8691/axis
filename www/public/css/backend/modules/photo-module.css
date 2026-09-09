@@ -1,0 +1,83 @@
+div:hover > #zoom {
+  opacity: 1 !important; }
+div #zoom {
+  opacity: 0;
+  transition: 0.3s;
+  left: 80%;
+  position: absolute;
+  bottom: 0;
+  transform: translateY(-50%) translateX(-50%);
+  background-color: rgba(255, 255, 255, 0.4);
+  height: 35px;
+  width: 175px;
+  font-size: 15px;
+  line-height: 35px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 0px 15px; }
+  div #zoom i {
+    display: inline-block;
+    line-height: 35px; }
+  div #zoom input[type=range] {
+    width: 100px;
+    display: inline-block;
+    height: 35px; }
+
+#current_image_container {
+  position: relative;
+  min-height: 200px; }
+  #current_image_container img {
+    object-fit: cover;
+    min-height: 200px;
+    width: 100%; }
+  #current_image_container i.fa {
+    position: absolute;
+    bottom: 0;
+    transform: translateY(-50%) translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.4);
+    height: 35px;
+    width: 35px;
+    font-size: 15px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 50%; }
+    #current_image_container i.fa.fa-search {
+      left: 90%;
+      pointer-events: none; }
+
+#default_images .default_image_container:after {
+  content: '';
+  right: 0;
+  top: 0;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.25);
+  width: 1px;
+  position: absolute; }
+#default_images .default_image_container:hover .fa-check {
+  opacity: 1 !important; }
+#default_images .default_image_container i.fa {
+  position: absolute;
+  bottom: 0;
+  transform: translateY(-50%) translateX(-50%);
+  background-color: rgba(255, 255, 255, 0.4);
+  height: 35px;
+  width: 35px;
+  font-size: 15px;
+  line-height: 35px;
+  text-align: center;
+  border-radius: 50%; }
+  #default_images .default_image_container i.fa.default_image_selected {
+    color: #3c8dbc; }
+  #default_images .default_image_container i.fa.fa-check {
+    transition: 0.3s;
+    left: 10%;
+    cursor: pointer; }
+    #default_images .default_image_container i.fa.fa-check:not(.default_image_selected) {
+      opacity: 0; }
+  #default_images .default_image_container i.fa.fa-search {
+    left: 90%;
+    pointer-events: none; }
+#default_images .lacobox-single-trigger, #default_images .lacobox-multiple-trigger {
+  cursor: pointer; }
+
+/*# sourceMappingURL=photo-module.css.map */

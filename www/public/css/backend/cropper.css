@@ -1,0 +1,39 @@
+#photo-module-container #upload-photo, #photo-module-container #crop-photo {
+  cursor: pointer !important; }
+#photo-module-container #photo-module-image-container {
+  position: relative; }
+  #photo-module-container #photo-module-image-container .fa.fa-arrows-alt {
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 10px;
+    cursor: help;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    opacity: 0;
+    transition: 0.5s; }
+  #photo-module-container #photo-module-image-container:hover .fa.fa-arrows-alt {
+    opacity: 1; }
+#photo-module-container .cropit .cropit-preview {
+  background-color: #f8f8f8;
+  background-size: cover;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-top: 7px;
+  width: 250px;
+  height: 250px; }
+#photo-module-container .cropit .cropit-preview-image-container {
+  cursor: move; }
+#photo-module-container .cropit i.fa {
+  font-size: 1.65em; }
+  #photo-module-container .cropit i.fa.fa-search-plus {
+    float: left; }
+#photo-module-container .cropit .cropit-range {
+  float: left;
+  margin-left: 15px;
+  width: calc(100% - 40px); }
+#photo-module-container .cropit .accept-changes {
+  cursor: pointer !important; }
+#photo-module-container .cropit .changes_saved {
+  color: #3c8dbc; }
+
+/*# sourceMappingURL=cropper.css.map */

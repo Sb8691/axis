@@ -1,0 +1,57 @@
+@import "backend_variables";
+
+#nastenka-found-problems {
+  tr.tr-link {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  tr.tr-help {
+    &:hover {
+      cursor: help;
+    }
+  }
+  tr.last-module {
+    border-bottom: 2px solid rgba(34, 45, 50, 0.25);
+  }
+
+  .page-navigation {
+    display: inline-block;
+
+    a {
+      display: inline-block!important;
+      width: auto!important;
+      float: left;
+      padding: 10px 15px!important;
+
+      &[data-selected='true'] {
+        border-bottom: 3px solid $active-color!important;
+        padding-bottom: 7px!important;
+      }
+    }
+  }
+
+  i#nastenka-problems-table-filter {
+    cursor: pointer;
+    float: right;
+    position: relative;
+
+    #nastenka-filters {
+      position: absolute;
+      top: -83px;
+      background-color: $color-dark-green;
+      width: 100%;
+      text-align: center;
+      padding: 5px 3px;
+
+      i {
+        font-size: 12px;
+        color: white;
+
+        &.active-filter {
+          color: $active-color;
+        }
+      }
+    }
+  }
+}

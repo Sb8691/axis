@@ -1,0 +1,89 @@
+/* -- -- */
+/* -- ALL HAIL THE LACOBOX -- */
+/* -- -- */
+#photo-module-image-container img {
+  cursor: pointer; }
+
+#lacobox-container {
+  top: 0;
+  left: 0;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.65);
+  z-index: 999;
+  display: none;
+  height: 100%;
+  width: 100%; }
+  #lacobox-container > div {
+    background-color: rgba(0, 0, 0, 0.4); }
+  #lacobox-container:hover .close-lacobox, #lacobox-container:hover .lacobox-navigation {
+    opacity: 1;
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none; }
+  #lacobox-container #lacobox-image-holder {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+    #lacobox-container #lacobox-image-holder img {
+      height: auto;
+      width: auto;
+      max-width: 90vw;
+      max-height: 90vh;
+      user-select: none;
+      -moz-user-select: none;
+      -khtml-user-select: none;
+      -webkit-user-select: none;
+      -o-user-select: none; }
+    #lacobox-container #lacobox-image-holder .lacobox-description {
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 5px 10px;
+      text-align: center;
+      color: white; }
+  #lacobox-container.hide-navigation .lacobox-navigation {
+    display: none !important; }
+  #lacobox-container .close-lacobox {
+    transition: opacity .3s ease-in-out;
+    opacity: 0;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    font-size: 23px;
+    color: #fff;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    cursor: pointer; }
+    #lacobox-container .close-lacobox span {
+      line-height: 50px;
+      font-size: 35px;
+      cursor: pointer; }
+  #lacobox-container .lacobox-navigation {
+    transition: opacity .5s ease-in-out;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 23px;
+    cursor: pointer;
+    height: 100px;
+    width: 50px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8); }
+    #lacobox-container .lacobox-navigation i {
+      line-height: 100px;
+      cursor: pointer; }
+  #lacobox-container .next-lacobox-image {
+    right: 5px; }
+  #lacobox-container .previous-lacobox-image {
+    left: 5px; }
+  #lacobox-container .no-next-lacobox-image {
+    opacity: 0.4 !important;
+    cursor: not-allowed; }
+
+/*# sourceMappingURL=lacobox_v1_0.css.map */

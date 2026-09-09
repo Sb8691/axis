@@ -1,0 +1,249 @@
+.mt-50 {
+  margin-top: 50px;
+}
+#preloader {
+  position: fixed;
+  z-index: 999999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: white url('/preloader.gif') no-repeat center;
+}
+.portfolio_item .overlayed .overlay {
+  > div {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    .overlay_title {
+      margin-top: 0;
+    }
+  }
+}
+// OWLCAROUSEL
+.owl-nav {
+  width: 75px;
+  margin: auto;
+  margin-top: 25px;
+
+  > div {
+    font-size: 23px;
+    cursor: pointer;
+
+    &.disabled {
+      opacity: 0.5;
+    }
+  }
+
+  > .owl-prev {
+    float: left;
+  }
+
+  > .owl-next {
+    float: right;
+  }
+}
+[led_osvetlenie] {
+  &#axis_pos_systems {
+    padding-bottom: 50px;
+  }
+  &#portfolio-osvetlenia {
+    padding-bottom: 0;
+    padding-top: 50px;
+    background: #f2f4f5;
+
+    .overlay .overlay_title {
+      margin-top: 8%;
+    }
+    p {
+      margin-bottom: 15px;
+    }
+    ul {
+      max-width: 350px;
+      margin: auto;
+
+      li {
+        display: inline-block;
+        width: 50%;
+      }
+    }
+  }
+}
+.inspirado_parallax_image2 {
+  background-image: url('http://placehold.it/1920x1280');
+}
+.contact_section_style {
+  background-image: url('http://placehold.it/1920x750');
+}
+.background_color_light_blue {
+  background-color: #f7f9fa;
+}
+.background_color_dark_blue {
+  background-color: #274796;
+}
+
+#domov-led-pre-vsetky-priestory {
+  .tcvpb_service_box {
+    &:hover {
+      background-color: white;
+    }
+  }
+}
+.color-white {
+  color: white!important;
+}
+.color-black {
+  color: black!important;
+}
+.black_text {
+  color: black;
+
+  span, p, a {
+    color: black!important;
+  }
+
+  a.tcvpb-button1 {
+    border-color: #000;
+  }
+}
+.tcvpb_team_member {
+  padding: 1px;
+
+  .tcvpb_overlayed {
+    display: block;
+  }
+}
+.button-style-1 {
+    background: transparent;
+    border: 1px solid #dee0e3;
+    color: #00d8ff;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 700;
+    padding: 14px 27px 15px 27px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all 180ms ease-in;
+    -moz-transition: all 180ms ease-in;
+    -o-transition: all 180ms ease-in;
+    transition: all 180ms ease-in;
+
+  &:hover {
+    background: #00d8ff;
+    border: 1px solid #e1e3e6;
+    color: #fff;
+  }
+
+  &.button-small {
+    padding: 7px 22px 7px 22px;
+  }
+}
+.portfolio_item {
+  &:hover {
+    .non-overlay {
+      opacity: 0;
+    }
+  }
+  .non-overlay {
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    width: calc(100% - 10px);
+    transition: 0.25s;
+    padding: 3px 6px;
+    background-color: rgba(255,255,255,0.5);
+
+    .non-overlay_title {
+      color: #274796;
+      margin-bottom: 0!important;
+      font-size: 16px;
+      font-weight: bold;
+    }
+  }
+}
+
+#o-nas-vyhody-led-svetiel, #o-nas-prinasame-vam {
+  img {
+    padding: 12.5px 12.5px;
+    max-width: 55px;
+    max-height: 55px;
+    height: auto;
+  }
+}
+.g-recaptcha {
+  margin-bottom: 20px;
+  text-align: center;
+  > div {
+    margin: auto;
+  }
+}
+[domov]#preco-my {
+  .crcl {
+    width: 140px;
+    margin: auto;
+    border: 1px solid #274796;
+    margin-top: -50px;
+    margin-bottom: -48px;
+    border-radius: 50%;
+    padding: 50px;
+    height: 140px;
+    text-align: center;
+    img {
+      margin: auto;
+      max-height: 38px;
+    }
+  }
+}
+.sponsors_logo {
+  img {
+    height: 90px;
+  }
+}
+#poskytujeme-led-osvetlenie-pre-owl {
+  position: relative;
+  height: auto!important;
+  .portfolio_item_meta {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    h6 {
+      margin-bottom: 0;
+      a {
+        color: #18191a;
+      }
+    }
+    p {
+      padding-bottom: 10px;
+      margin-bottom: 0;
+    }
+  }
+  
+  .owl-nav {
+    margin: 0;
+    > div {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 40px;
+
+      &.owl-prev {
+        left: -25px;
+      }
+      &.owl-next {
+        right: -25px;
+      }
+    }
+  }
+  .portfolio_icon:hover i {
+    color: #274796;
+  }
+}

@@ -1,0 +1,94 @@
+#single-portfolio-item {
+  .portfolio_single_column_item {
+    margin-bottom: 60px;
+    overflow: hidden;
+    border: 1px solid #e6e8eb;
+    text-align: left;
+
+    .portfolio_inner_content {
+      overflow: hidden;
+
+      .portfolio_single_container {
+        position: relative;
+        overflow: hidden;
+
+        .portfolio_thumb {
+          float: right;
+          margin-right: 0;
+          width: 60%;
+
+          .overlayed {
+            position: relative;
+            text-align: center;
+
+            .portfolio_item img {
+              width: 100%;
+              height: auto;
+              vertical-align: top;
+            }
+          }
+        }
+
+        .portfolio_item_meta {
+          position: relative;
+          padding: 60px;
+          padding-right: 65.9%;
+
+          h2.portfolio_title {
+            margin-bottom: 0;
+            font-size: 22px;
+            line-height: 28px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #18191a;
+            font-style: normal;
+          }
+
+          .portfolio_item_meta_category {
+            font-size: 14px;
+            line-height: 28px;
+            color: #9fa4af;
+            font-weight: 400;
+            margin-bottom: 21px;
+            padding-bottom: 21px;
+            font-style: italic;
+            position: relative;
+
+            &:after {
+              display: block;
+              content: '';
+              width: 83px;
+              height: 1px;
+              background: #00d8ff;
+              position: absolute;
+              bottom: 0;
+              margin-left: 0;
+            }
+          }
+
+          .post-readmore.portfolio-readmore {
+            margin: 20px 0;
+            padding: 0;
+
+            a.more-link {
+              background: #fff;
+              color: #00d8ff;
+              border: 1px solid #e1e3e6;
+              padding: 12px 35px 11px 37px;
+              margin-top: 13px;
+              font-size: 11px;
+              text-transform: uppercase;
+              font-weight: 700;
+              letter-spacing: 0.1px;
+
+              &:hover {
+                background: #00D8FF;
+                color: #fff;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

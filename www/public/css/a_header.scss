@@ -1,0 +1,22 @@
+#main_menu_container {
+  > .container {
+    width: 1370px;
+  }
+
+  #logo {
+    padding-top: 0;
+    margin-top: -6px;
+    margin-bottom: -14px;
+  }
+}
+nav > ul > li {
+  > a:after {
+    content: none;
+  }
+
+  margin: 0 20px;
+
+  &:first-child {
+    margin-left: 0;
+  }
+}

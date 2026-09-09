@@ -1,0 +1,14 @@
+.unformat {
+  ul {
+    padding-left: 24px;
+    li {
+      list-style-position: outside;
+    }
+  }
+  ol {
+    padding-left: 20px;
+    li {
+      list-style-position: outside;
+    }
+  }
+}
