@@ -1879,6 +1879,10 @@ nav > ul > li{
 	position: relative;
 }
 
+#main_menu_left > li{
+	margin: 0 10px;
+}
+
 li.main_menu_item_logo{
 	list-style-type: none;
 }

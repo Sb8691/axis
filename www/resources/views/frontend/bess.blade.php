@@ -1,6 +1,6 @@
 @extends('frontend._layout')
-@section('title', 'BESS')
-@section('meta_description', 'Navrhujeme, dodávame a inštalujeme batériové úložiská (BESS) pre firmy, priemyselné areály aj domácnosti. Znižujte náklady, riaďte spotrebu, získajte energetickú nezávislosť.')
+@section('title', 'BESS: Batériové úložiská s inteligentným riadením, výpočty a simulácie, výhodné financovanie')
+@section('meta_description', 'BESS: Batériové úložiská s inteligentným riadením, výpočty a simulácie, výhodné financovanie')
 @section('styles')
 @endsection
 @section('content')
@@ -358,7 +358,7 @@
             <div class="tcvpb_column_tc_span tcvpb-centered tcvpb-animo" data-animation="fadeInDown" data-trigger_pt="0" data-duration="1000" data-delay="300">
                 <span class="clear spacer_20"></span>
                 <div class="tcvpb-image ">
-                    <img src="{{ asset('/images/uploaded/bess-cabinet-261kwh.jpg') }}" alt="Batériové úložisko KONJA 261 kWh" title="Batériové úložisko 261 kWh" style="height: 300px;">
+                    <img src="{{ asset('/images/case-europe-ci-522kwh.jpeg') }}" alt="Referenčná realizácia batériového úložiska, 522 kWh" title="Batériové úložisko 522 kWh" style="height: 300px;">
                 </div>
             </div>
         </div>

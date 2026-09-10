@@ -187,8 +187,8 @@
                                     </a>
                                 </li>
                                 <li class="menu-item @if (WhatPageIsThis() == '/bess') current-menu-item current_page_item @endif">
-                                    <a href="{{ route('bess') }}" class="scroll" title="BESS">
-                                        <span>BESS</span>
+                                    <a href="{{ route('bess') }}" class="scroll" title="Batérie – BESS">
+                                        <span>BATÉRIE – BESS</span>
                                     </a>
                                 </li>
                             </ul>
