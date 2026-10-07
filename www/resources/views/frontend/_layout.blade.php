@@ -355,7 +355,7 @@
 
                                 <div class="span12 gdpr-btn">
                                     <input type="checkbox" id="gdpr-btn" value="Súhlasím so spracovaním osobných údajov" required>
-                                    <label for="gdpr-btn"> Súhlasím so spracovaním <a target="_blank" href="axis-gdpr.pdf">osobných údajov</a></label>
+                                    <label for="gdpr-btn"> Súhlasím so spracovaním <a target="_blank" href="{{ asset('axis-gdpr.pdf') }}">osobných údajov</a></label>
                                 </div>
                                 <div class="span12 aligncenter">
                                     <input type="submit" value="ODOSLAŤ" class="wpcf7-form-control wpcf7-submit button-1">

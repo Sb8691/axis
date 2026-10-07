@@ -7,7 +7,7 @@
 
             <p>
 
-                Táto webová stránka používa súbory cookies. Využívaním cookies nedochádza k spracúvaniu osobných údajov podľa <a href="/{{asset("files/axis-gdpr.pdf")}}" target="_blank" title="GDPR destroy.sk">GDPR</a>. Prehliadaním webovej stránky návštevník akceptuje využívanie cookies. Viac informácií o využívaní cookies a možnostiach ich vypnutia nájdete
+                Táto webová stránka používa súbory cookies. Využívaním cookies nedochádza k spracúvaniu osobných údajov podľa <a href="{{ asset('axis-gdpr.pdf') }}" target="_blank" title="GDPR destroy.sk">GDPR</a>. Prehliadaním webovej stránky návštevník akceptuje využívanie cookies. Viac informácií o využívaní cookies a možnostiach ich vypnutia nájdete
 
                 <a href="javascript:void(0)" data-toggle="modal" data-target="#cookiesModal">tu</a>.
 
